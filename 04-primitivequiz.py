@@ -109,12 +109,13 @@ while SwitzerlandBern != SwitzAnswer:
 print("Correct.")
 
 #belarus
-BelarusMinsk = (input("20. What is the capital of Belarus?\nAnswer: "))
+BelarusMinsk = (input("10. What is the capital of Belarus?\nAnswer: "))
 BelarusAnswer = "Minsk"
 while BelarusMinsk != BelarusAnswer:
     if (BelarusMinsk == BelarusAnswer) or (BelarusMinsk.lower() == BelarusAnswer.lower()) or BelarusMinsk.upper() == BelarusAnswer.upper():
         break
     else:
         print("Incorrect.")
-        BelarusMinsk = (input("20. What is the capital of Belarus?\nAnswer: "))
+        BelarusMinsk = (input("10. What is the capital of Belarus?\nAnswer: "))
 print("Correct.")
+
