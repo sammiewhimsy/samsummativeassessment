@@ -8,6 +8,7 @@ def inputyaya():
 # First function is for the user input and to check if the value is valid.
 # When valid, the function will exit the program and return the value.
 # When invalid (ValueError), it will prompt an invalid message and loop until the user enters an integer.
+# While loop to loop until the condition is met.
 
 def evenorodd(numnum):
     if numnum % 2 == 0:
@@ -27,3 +28,4 @@ def main():
     
 if __name__ == '__main__':
     main()
+
