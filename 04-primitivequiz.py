@@ -1,6 +1,10 @@
+# 4 — Primitive Quiz
+
 #france
 FranceParis = (input("1. What is the capital of France?\nAnswer: "))
+# Variable for user input. \n to start new line.
 FRanswer = "Paris"
+# Variable set for the answer.
 while FranceParis != FRanswer:
     if (FranceParis == FRanswer) or (FranceParis.lower() == FRanswer.lower()) or FranceParis.upper() == FRanswer.upper():
         break
@@ -8,6 +12,13 @@ while FranceParis != FRanswer:
         print("Incorrect.")
         FranceParis = (input("1. What is the capital of France?\nAnswer: "))
 print("Correct.")
+# Using while loop to loop the question until answered correctly.
+# Using the Not Equal (!=) operator to stop the flow of the loop when the correct answer is given.
+# lower() and upper() in line 9 are to make sure that the input for "Paris" will be correct, ignoring capitalization.
+# Break to break the loop and print "Correct" if the answer is correct.
+# Else statement to continue loop if incorrect, printing "Incorrect" and repeating the question.
+
+# These apply to the rest below.
 
 #germany
 GermanyBerlin = (input("2. What is the capital of Germany?\nAnswer: "))
